@@ -14,3 +14,14 @@
         os efeitos dos estados usamos esse methodo
         chamado UseEffect!
     }                                    
+
+    * Compreendimento geral do codigo {
+         adicionamos o nosso estado pra crairmos nossas consts que vao atuar
+         na logica de reenderizaçao do nosso componente (rota Get da Api backend) 
+
+
+            apos estruturar o estado ou seja o corpo a base da logica vamos para a execuçao
+            usando o UseEffect() dentro dele vamos fazer uma requisiçao
+            como que refazer o processo de rota usando nosso componente importado  
+
+    }
