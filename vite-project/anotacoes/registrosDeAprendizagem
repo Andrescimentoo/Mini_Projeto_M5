@@ -1,0 +1,16 @@
+
+                                        1- APLICAÇOES DE ESTADO    
+    * Uso do UseState() na aplicacao {
+       
+        aprendi quem o Use state eh resposnevel 
+        como intuitivamente se proprio nome diz
+        usamos ele quando queremos usar os estados
+        com react,na aplicacao
+    } 
+
+    * Uso do UseEffect() na apliccao {
+
+        aprendi que de fato quando queremos usar
+        os efeitos dos estados usamos esse methodo
+        chamado UseEffect!
+    }                                    
