@@ -1,23 +1,14 @@
-import { useEffect, useState } from "react";
-import conectorApi from "./conection_Api";
+import { BooksCodes } from "./card-bock-code.jsx";
 
 const ApiLibrary = () => { 
-    const [render, setRender] = useState([]);
-
-    useEffect(() => {
-        conectorApi.get('RoteNumberTwo').then(({ data }) => {
-            console.log(data)
-            setRender(data);
-        });
-    }, []);
-
-    return (
-        <div className="books-code">
-            {render.map((item) => (
-                <div key={item.id}>{item.name}</div> // Renderiza o nome do livro
-            ))}
+   
+    return(
+        <div>
+           <BooksCodes/>
         </div>
-    );
+
+    )
 }
+
 
 export default ApiLibrary;
