@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import BookCard from "./boockCard.jsx";
 import conectorApi from "../../axius.js";
+import "./BookCard.css"
 
 
 
